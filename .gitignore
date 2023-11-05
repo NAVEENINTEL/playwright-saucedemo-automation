@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Playwright's output directories
+output/
+playwright-report/
+
+# Operating System files
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# Logs and other generated files
+logs/
+*.log
+
+# Temporary files
+.tmp/
+.temp/
+*.swp
+
+# Test results
+test-results/
