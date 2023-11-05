@@ -6,7 +6,8 @@ const ShoppingCartPage = require('../page_objects/ShoppingCartPage');
 const CheckoutPage = require('../page_objects/CheckoutPage');
 
 (async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch();
+   // const browser = await chromium.launch({ headless: false });
   const context = await browser.newContext();
   const page = await context.newPage();
 
