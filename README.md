@@ -29,9 +29,11 @@ Cross-browser testing (Chromium, Firefox, WebKit)
 
 Data-driven testing
 
+Github Actions for Continous testing
+
 ## Technologies Used
-Playwright
-Node.js
+Playwright ,
+Node.js ,
 Mocha
 Chai
 
